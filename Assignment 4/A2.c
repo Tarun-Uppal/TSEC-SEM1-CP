@@ -29,7 +29,7 @@ void main(){
         for (int j = 0; j<n;j++){
             int sum = 0;
             for (int z = 0; z<n; z++){
-                sum += arr1[z][j]*arr2[j][z];
+                sum += arr1[z][i]*arr2[j][z];
             }
             ans[i][j] = sum;
         }
