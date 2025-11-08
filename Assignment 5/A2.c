@@ -21,5 +21,4 @@ void main(){
     } else {
         printf("Not a Palindrome String");
     }
-
 }
